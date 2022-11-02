@@ -1,0 +1,229 @@
+/* -----------------------
+Base styles
+------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 1920px;
+    background-color: rgb(0, 0, 0);
+    font: 1em/1.2 "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(156, 202, 253);
+    position: relative;
+}
+
+h4 {
+    color: rgb(156, 202, 253);
+    border-style: solid;
+    border-width: 3px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+P {
+    color: white;
+    position: relative;
+}
+
+.displayPostBox {
+    max-width: 700px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(0, 0, 0);
+}
+
+label {
+    color: rgb(156, 202, 253);
+}
+
+.formBox {
+    /* padding-top: 150px; */
+    width: 600px;
+    margin: 0 auto;
+    border-width: 10px;
+    border-color: rgb(255, 254, 254);
+}
+
+.formBoxMain {
+    /* padding-top: 150px; */
+    max-width: 200px;
+    padding-right: 50px;
+    border-width: 10px;
+    border-color: rgb(0, 0, 0);
+    padding-bottom: 50px;
+}
+
+.formBoxResponse {
+    /* padding-top: 150px; */
+    width: 200px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    border-width: 5px;
+    border-color: rgb(88, 88, 88);
+}
+
+
+/* Bordered form */
+
+form {
+    border: 1px solid #f1f1f1;
+}
+
+
+/* Full-width inputs */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+}
+
+
+/* Add a hover effect for buttons */
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* Extra style for the cancel button (red) */
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+/* Add padding to containers */
+
+.container {
+    padding: 16px;
+}
+
+
+/* CSS FOR SEARCH BAR: */
+
+.search {
+    max-width: 300px;
+    position: relative;
+    display: flex;
+}
+
+.searchTerm {
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+}
+
+.searchTerm:focus {
+    color: #00B4CC;
+}
+
+.searchButton {
+    width: 40px;
+    height: 24px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+/*Resize the wrap to see the search bar change!*/
+
+.wrap {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.listing {
+    border: 5px solid #0a7894;
+    background-color: grey;
+    min-height: 600px;
+    max-width: 800px;
+    margin-left: 30%;
+    position: right;
+}
+
+.img {
+    position: absolute;
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child-left {
+    width: 20%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+    height: 400px;
+}
+
+.float-child-right {
+    width: 60%;
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+    height: 400px;
+}
+
+.float-child-left-one {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    border: 0px solid red;
+    height: 400px;
+}
+
+.float-child-right-one {
+    width: 60%;
+    float: left;
+    padding: 20px;
+    border: 0px solid red;
+    height: 400px;
+}
+
+.listingReview {
+    width: 800px;
+    float: middle;
+    padding: 20px;
+    border: 2px solid blue;
+}
